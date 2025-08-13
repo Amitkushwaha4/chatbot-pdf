@@ -5,6 +5,8 @@ venv/
 
 # Environment variable files
 .env
+echo ".venv/" >> .gitignore
+
 
 # VS Code settings
 .vscode/
