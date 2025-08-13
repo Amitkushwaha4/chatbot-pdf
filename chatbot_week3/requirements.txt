@@ -1,0 +1,14 @@
+google-search-results
+beautifulsoup4
+html2text
+streamlit
+fpdf
+pypdf
+faiss-cpu
+langchain
+langchain-community
+sentence-transformers
+euriai
+pymongo
+duckduckgo-search
+python-dotenv
