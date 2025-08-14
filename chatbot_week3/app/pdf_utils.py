@@ -1,5 +1,6 @@
-# app/pdf_utils.py
 from pypdf import PdfReader
+from typing import List
+import io
 
 def extract_text_from_pdf(file) -> str:
     reader = PdfReader(file)

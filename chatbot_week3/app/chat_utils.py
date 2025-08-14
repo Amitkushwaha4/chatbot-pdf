@@ -1,7 +1,9 @@
-# app/chat_utils.py
 from euriai.langchain import create_chat_model
+from dotenv import load_dotenv
+import os
 
-API_KEY = None
+load_dotenv() 
+API_KEY = os.getenv("EURI_API_KEY")
 MODEL = "gpt-4.1-nano"
 TEMPERATURE = 0.7
 
